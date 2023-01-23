@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    p{
+        font-size: 12px;
+    }
+    #mhero {
+        height: 800px;
+        width: 100%;
+        background-image: url(./image/background.png);
+
+    }
+
+    #mhero .row .col-md-10 {
+
+        padding: 220px 0;
+    }
+
+    #mhero .row .col-md-10 .btn {
+        background-color: #FF656A;
+        padding: 10px 30px;
+
+    }
+
+    #second .row .col-md-3 {
+        height: 100%;
+        width: 250px;
+        background-color: white;
+        margin: 20px;
+        padding: 50px 20px;
+        box-shadow: 6px 6px 6px rgb(141, 138, 138);
+        transition: 0.3s ease-in-out;
+        
+
+
+    }
+    #second .row .col-md-3:hover{
+        background-color: #FF656A;
+        color: white;
+
+    }
+
+    #second .row .col-md-3 i {
+        font-size: 37px;
+        color: #FF656A ;
+        background-color: lightblue;
+        padding: 16px;
+        border-radius: 7px;
+        margin: 0 0 15px 0;
+
+
+    }
+
+    
+    #second .row .col-md-3 h4 {
+        font-size: 23px;
+        font-weight: bold;
+
+    }
+    
+   
+    #second .row {
+        margin: -80px 0 0 0;
+    }
+
+    .btn2 {
+        border: none;
+        color: tomato;
+        background-color: #fff;
+    }
+
+    .head-border {
+        height: 8px;
+        width: 100px;
+        background-color: tomato;
+        margin: 0 0 16px 0;
+        border-radius: 4px;
+    }
+
+    #fifth .set .row .col-md-10 h5 {
+        color: tomato;
+    }
+
+    .Seven .hero {
+        background-color: #26335D;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .Seven .hero .back {
+        margin: 200px;
+    }
+
+    #eight .met .row .col-md-10 h5 {
+        color: tomato;
+    }
+
+    #ten .pet .row .col-md-10 h5 {
+        color: tomato;
+    }
+
+    #ten .pet .row .col-md-10 input {
+        margin: 50px 0 0 0;
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+
+    #ten .pet .row .col-md-10 button {
+        margin: 50px 0 0 0;
+        padding: 15px;
+        background-color: #FF656A;
+        border-radius: 5px;
+    }
+
+    @media screen and (max-width:768px) {
+        #second .row {
+            margin: 0 0 0 0;
+        }
+    }
+</style>
+
+<body>
+    <section id="mhero">
+        <div class="row w-100 justify-content-center align-items-center">
+            <div class="col-md-10 text-center">
+                <p class="fs-5 text-warning text-center align-items-center m-5">join us</p>
+                <h1 class="fs-1 fw-bold text-light text-center m-3">HIGH QUALITY <br>COURESES</h1>
+                <P class="fs-6 text-light text-center">our goal is to make online eduaction work for everyone </P>
+                <button class="btn text-light">join us</button>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="second">
+        <div class="container">
+            <div class="row justify-content-center align-items-center w-100">
+                <div class="col-md-3">
+                    <i class="fa-solid fa-computer"></i>
+                    <h4>Lifetime access </h4>
+                    <p>The Gradual accumulation of information about atomic and small-scale behaviour....</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa-solid fa-clock"></i>
+                  
+                    <h4>Tranning courses</h4>
+                    <p>The Gradual accumulation of information about atomic and small-scale behaviour....</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa-sharp fa-solid fa-book"></i>
+                    <h4>Expert Instruction</h4>
+                    <p>The Gradual accumulation of information about atomic and small-scale behaviour....</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="third">
+        <div class="get">
+            <div class="container">
+                <div class="row justify-content-center align-items-center w-100">
+                    <div class="col-md-5 m-5">
+                        <img src="./image/thumb-concept-14.png" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-4 m-5">
+                        <div class="head-border"></div>
+                        <h1>Watch our courses</h1>
+                        <p>problems typing to resoive the conflict between the two major realms of clasical physics.
+                            Neian
+                            Mecanics</p>
+                        <button class="btn2 fs-5">Learn More > </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="fourth">
+        <div class="get">
+            <div class="container">
+                <div class="row justify-content-center align-items-center w-100">
+                    <div class="col-md-4 m-5">
+                        <div class="head-border"></div>
+                        <h1>Every client Matters</h1>
+                        <p>problems typing to resoive the conflict between the two major realms of clasical physics.
+                            Neian
+                            Mecanics</p>
+                        <button class="btn2 fs-5">Learn More > </button>
+
+                    </div>
+                    <div class="col-md-5 m-5">
+                        <img src="./image/Video card.png" class="img-fluid" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="fifth">
+        <div class="set">
+            <div class="container">
+                <div class="row justify-content-center align-items-center w-100 my-5">
+                    <div class="col-md-10">
+                        <h5 class="fs-4 mb-1">courses</h5>
+                        <h1>Get Quality</h1>
+                        <p class="mt-1">problems typing to resoive the conflict between <br> the two major realms of
+                            clasical physics. Neian
+                            Mecanics</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="Six">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-2">
+                    <img src="./image/fixed-height.png" class="img-fluid" alt="">
+                    <p class="text-danger">Books Liberary</p>
+                    <p class="text-primary">Our Expert Teacher</p>
+                    <p class="text-muted">WE focus on ergonomics and meeting you...</p>
+                    <button class="btn btn btn-outline-danger rounded-pill">Learn More ></button>
+                </div>
+                <div class="col-md-2">
+                    <img src="./image/fixed-height (2).png" class="img-fluid" alt="">
+                    <p class="text-danger">Training courses</p>
+                    <p class="text-primary">Watch Our courses</p>
+                    <p class="text-muted">WE focus on ergonomics and meeting you...</p>
+                    <button class="btn btn btn-outline-danger rounded-pill">Learn More ></button>
+                </div>
+                <div class="col-md-2">
+                    <img src="./image/fixed-height (3).png" class="img-fluid" alt="">
+                    <p class="text-danger">Expert Instruction</p>
+                    <p class="text-primary">Watch Our courses</p>
+                    <p class="text-muted">WE focus on ergonomics and meeting you...</p>
+                    <button class="btn btn btn-outline-danger rounded-pill">Learn More ></button>
+                </div>
+                <div class="col-md-2">
+                    <img src="./image/fixed-height (4).png" class="img-fluid" alt="">
+                    <p class="text-danger">Training courses</p>
+                    <p class="text-primary">Get Quality eduaction</p>
+                    <p class="text-muted">WE focus on ergonomics and meeting you...</p>
+                    <button class="btn btn btn-outline-danger rounded-pill">Learn More ></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Seven mt-5">
+        <div class="hero container">
+            <div class="Back">
+                <p class="text-danger">practice Advice</p>
+                <h1 class="text-light">Most Popular courses</h1>
+                <p class="text-light">Problems Trying to resolve the Conflict between <br> the two major realms of
+                    clasical physics: Newtonian mechanics</p>
+            </div>
+            <div class="row justify-content-center align-items-center w-100 mt-5">
+                <div class="col-md-3">
+                    <img src="./image/card-item.png" class="img-fluid m-3" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./image/card-item.png" class="img-fluid m-3" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./image/card-item.png" class="img-fluid m-3" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="eight">
+        <div class="met">
+            <div class="container">
+                <div class="row justify-content-center align-items-center w-100 my-5">
+                    <div class="col-md-10">
+                        <h5 class="fs-4 mb-1">Testiomanlals</h5>
+                        <h1>our Popular courses</h1>
+                        <p class="mt-1">problems typing to resoive the conflict between <br> the two major realms of
+                            clasical physics. Neian
+                            Mecanics</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section id="nine">
+        <div class="cut">
+            <div class="container">
+                <div class="row justify-content-center align-items-center w-100">
+                    <div class="col-md-5 text-center">
+                        <img src="./image/circle sec- (2).png" class="img-fluid" alt="">
+                        <p>state helps you see how many more days you need to work to reach your financial goal for the
+                            months and year.
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                        </p>
+                        <p class="fw-bold">regina miles</p>
+
+                        <p>designer</p>
+                    </div>
+                    <div class="col-md-5 text-center">
+                        <img src="./image/circle sec-.png" class="img-fluid" alt="">
+                        <p>state helps you see how many more days you need to work to reach your financial goal for the
+                            months and year.
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                        </p>
+                        <p class="fw-bold">regina miles</p>
+                        <p>designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="ten">
+        <div class="pet">
+            <div class="container">
+                <div class="row justify-content-center align-items-center w-100 my-5">
+                    <div class="col-md-10 text-center">
+                        <h5 class="fs-4 mb-1">NewsLetter</h5>
+                        <h1>our Popular courses</h1>
+                        <p class="mt-1">problems typing to resoive the conflict between <br> the two major realms of
+                            clasical physics. Neian
+                            Mecanics</p>
+                        <input type="text" placeholder="Your Email"><button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="eleven">
+        <div class="cat">
+            <div class="container">
+                <div class="row justify-content-center align-items-center w-100">
+                    <div class="col-md-2">
+                        <h5>company</h5>
+                        <p>about us</p>
+                        <p>carrier</p>
+                        <p>we are hiring</p>
+                        <p>blog</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>legal</h5>
+                        <p>about us</p>
+                        <p>carrier</p>
+                        <p>we are hiring</p>
+                        <p>blog</p>
+
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Features</h5>
+                        <p>Business Marketing</p>
+                        <p>User Analytic</p>
+                        <p>live chat</p>
+                        <p>Unlimited Support</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Resoures</h5>
+                        <p>Ios and Android</p>
+                        <p>watch n demo</p>
+                        <p>customers</p>
+                        <p>Api</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Get in Touch</h5>
+                        <i class="fa-solid fa-phone-volume"></i><span>(480)555-1031</span><br>
+                        <i class="fa-solid fa-location-dot"></i><span>4517 Washington Ave.ManChester Kentucky
+                            39495</span><br>
+                        <i class="fa-solid fa-envelope"></i><span> debra.holt@example.com</span>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
